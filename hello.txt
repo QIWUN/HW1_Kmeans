@@ -1,0 +1,5 @@
+hadoop jar output.jar Kmeans PM25_365_dali_input.txt result
+hadoop fs -cat result/part-r-00000
+
+
+
